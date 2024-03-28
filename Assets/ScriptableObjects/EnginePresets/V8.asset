@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26a95f8fa9960464ba2fe36d818aacc5, type: 3}
+  m_Name: V8
+  m_EditorClassIdentifier: 
+  engineType: 1
+  offLoadBlendTrackData:
+    carEngineAssetDatas:
+    - audioClip: {fileID: 8300000, guid: a986ca92e8ef70842a04fe129aa80fd7, type: 3}
+      defaultPichValue: 1170
+      min: 0
+      max: 2000
+      fadeInLength: 0
+      fadeOutLength: 500
+    - audioClip: {fileID: 8300000, guid: f3f5d7e724e90ef44abca0a74d5a20b5, type: 3}
+      defaultPichValue: 1930
+      min: 1500
+      max: 2700
+      fadeInLength: 500
+      fadeOutLength: 500
+    - audioClip: {fileID: 8300000, guid: 7beadd97113970f4c900707b017857c2, type: 3}
+      defaultPichValue: 2745
+      min: 2200
+      max: 3500
+      fadeInLength: 500
+      fadeOutLength: 500
+    - audioClip: {fileID: 8300000, guid: 404ada9fc5fe60248ae6aad1a619380d, type: 3}
+      defaultPichValue: 3520
+      min: 3000
+      max: 4200
+      fadeInLength: 500
+      fadeOutLength: 500
+    - audioClip: {fileID: 8300000, guid: 996bc5cfe5acce54fbca5743b7f0496b, type: 3}
+      defaultPichValue: 4300
+      min: 3700
+      max: 10000
+      fadeInLength: 500
+      fadeOutLength: 0
+  onLoadBlendTrackData:
+    carEngineAssetDatas:
+    - audioClip: {fileID: 8300000, guid: a986ca92e8ef70842a04fe129aa80fd7, type: 3}
+      defaultPichValue: 1170
+      min: 0
+      max: 1600
+      fadeInLength: 0
+      fadeOutLength: 400
+    - audioClip: {fileID: 8300000, guid: 1734ba6cf3da1cc4aa2ff2712750bd63, type: 3}
+      defaultPichValue: 1670
+      min: 1200
+      max: 1900
+      fadeInLength: 400
+      fadeOutLength: 200
+    - audioClip: {fileID: 8300000, guid: 004e8df0efadfb449baabbff0c72d801, type: 3}
+      defaultPichValue: 1880
+      min: 1700
+      max: 2900
+      fadeInLength: 200
+      fadeOutLength: 500
+    - audioClip: {fileID: 8300000, guid: 34b4c147604c3274e882ef91c545a560, type: 3}
+      defaultPichValue: 2910
+      min: 2400
+      max: 3300
+      fadeInLength: 500
+      fadeOutLength: 300
+    - audioClip: {fileID: 8300000, guid: 65959e5829de76146b31f2a402e73286, type: 3}
+      defaultPichValue: 3380
+      min: 3000
+      max: 3900
+      fadeInLength: 300
+      fadeOutLength: 500
+    - audioClip: {fileID: 8300000, guid: 59b4731ad730fff4e84e41fca8286878, type: 3}
+      defaultPichValue: 3940
+      min: 3400
+      max: 4200
+      fadeInLength: 500
+      fadeOutLength: 300
+    - audioClip: {fileID: 8300000, guid: 192031dfc9920084595714661f4ded1d, type: 3}
+      defaultPichValue: 4180
+      min: 3900
+      max: 10000
+      fadeInLength: 300
+      fadeOutLength: 0
